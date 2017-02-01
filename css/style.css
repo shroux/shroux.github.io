@@ -1,0 +1,17 @@
+.navbar-nav > li > a {
+    padding-top:15px !important;
+    padding-bottom:15px !important;
+}
+.navbar {
+    border-radius: 0;
+    min-height:40px !important;
+    border: none;
+    margin-bottom: 0!important;
+}
+.nav.navbar-nav {
+    margin: 0!important;
+}
+.jumbotron{
+    height: calc(100vh - 50px);
+    background-color: transparent;
+}
