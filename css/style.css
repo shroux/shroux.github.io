@@ -16,6 +16,7 @@ body {
 }
 .jumbotron{
     height: calc(100vh - 50px);
+    min-height: 600px;
     background-color: transparent;
     text-align: center;
     padding: 150px 20px 0 20px;
@@ -50,7 +51,7 @@ body {
     margin: 50px 0;
 }
 .section-title {
-    margin: 100px 0;
+  margin-bottom: 80px;
 }
 .section-title h2 {
     font-size: 40px;
@@ -59,8 +60,9 @@ body {
     font-size: 21px;
     font-weight: 200;
 }
-#features {
+#features, #experience {
     text-align: center;
+    margin: 80px;
 }
 .feature-item {
     padding: 10px 20px;
@@ -68,4 +70,58 @@ body {
 .feature-pic {
     width: 200px;
     height: 200px;
+}
+.commit-group {
+    text-align: left;
+}
+.commit-group h3::before {
+    font-family:'Glyphicons Halflings';
+    content: "\e081";
+    margin-left: -25px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.commit-item {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    position: relative;
+}
+.commit-item h4 {
+    margin: 5px 0 5px 0;
+}
+.commit-item::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    z-index: 2;
+    display: block;
+    width: 2px;
+    content: "";
+    background-color: #e5e5e5;
+}
+.commit-item:hover {
+    background-color: #f7fbfc;
+}
+.commit-picture {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+#rot
+{
+    
+    -webkit-animation: Floatingy 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes Floatingy {
+    from {
+        -webkit-transform:translateY(0px);
+    }
+    65% {
+        -webkit-transform:translateY(7px);
+    }
+    to {
+        -webkit-transform: translateY(-0px);
+    }
 }
