@@ -65,6 +65,9 @@ body {
     text-align: center;
     margin: 0px;
 }
+#formations {
+    margin-bottom: 20px;
+}
 .feature-item {
     padding: 10px 20px;
 }
@@ -128,6 +131,27 @@ body {
     bottom: 0;
     border-radius: 0;
     height: 10px;
+}
+.feed-item {
+    text-align: left;
+}
+.feed-item .headline {
+    margin: 0;
+}
+.feed-item .date {
+    text-align: right;
+    color: #AAA;
+}
+.feed-item .comment {
+    background-color: #f7fbfc;
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.feed-item .comment .comment-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 #rot
