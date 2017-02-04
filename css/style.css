@@ -60,9 +60,9 @@ body {
     font-size: 21px;
     font-weight: 200;
 }
-#features, #experience {
+#features, #experience, #formations {
     text-align: center;
-    margin: 80px;
+    margin: 0px;
 }
 .feature-item {
     padding: 10px 20px;
