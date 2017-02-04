@@ -51,7 +51,8 @@ body {
     margin: 50px 0;
 }
 .section-title {
-  margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .section-title h2 {
     font-size: 40px;
@@ -70,6 +71,9 @@ body {
 .feature-pic {
     width: 200px;
     height: 200px;
+}
+#commit-list {
+    margin: 0 20px;
 }
 .commit-group {
     text-align: left;
