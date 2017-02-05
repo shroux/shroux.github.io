@@ -12,7 +12,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -26,11 +26,11 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a onclick="$('#features').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Features</a></li>
-                        <li><a onclick="$('#experiences').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Work experiences</a></li>
-                        <li><a onclick="$('#formations').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Formations</a></li>
-                        <li><a onclick="$('#projects').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Projects</a></li>
-                        <li><a onclick="$('#contact').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Contact me</a></li>
+                        <li class="menu-item"><a onclick="$('#features').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});">Features</a></li>
+                        <li class="menu-item"><a onclick="$('#experience').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});">Work experiences</a></li>
+                        <li class="menu-item"><a onclick="$('#formations').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});">Formations</a></li>
+                        <li class="menu-item"><a onclick="$('#projects').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});">Projects</a></li>
+                        <li class="menu-item"><a onclick="$('#contact').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});">Contact me</a></li>
                     </ul>
                 </div>
             </div>

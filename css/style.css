@@ -14,8 +14,11 @@ body {
 .nav.navbar-nav {
     margin: 0!important;
 }
+.menu-item {
+    cursor: pointer;
+}
 .jumbotron{
-    height: calc(100vh - 50px);
+    height: 100vh;
     min-height: 600px;
     background-color: transparent;
     text-align: center;
