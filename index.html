@@ -26,8 +26,11 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a onclick="$('#features').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Features</a></li>
+                        <li><a onclick="$('#experiences').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Work experiences</a></li>
+                        <li><a onclick="$('#formations').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Formations</a></li>
+                        <li><a onclick="$('#projects').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Projects</a></li>
+                        <li><a onclick="$('#contact').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint'});">Contact me</a></li>
                     </ul>
                 </div>
             </div>
@@ -323,23 +326,25 @@
                                                 <img src="img/me.jpg" class="comment-picture">
                                             </div>
                                             <div class="col-md-11">
-                                               TYCoach is a project which provides tools to facilitate exchange between students and professionals from any background.<br/>Project manager and front-end developer with PHP Symfony 2 & Twig.  
-                                                <div class="row">
-                                                  <div class="col-xs-6 col-md-3">
-                                                    <a class="thumbnail">
-                                                      <img src="http://eip.epitech.eu/2016/tycoach/img/tycoach_badge.png" alt="...">
-                                                    </a>
-                                                  </div>
-                                                  <div class="col-xs-6 col-md-3">
-                                                    <a class="thumbnail">
-                                                      <img src="img/tycoach.png" alt="...">
-                                                    </a>
-                                                  </div>
-                                                    <div class="col-xs-6 col-md-3">
-                                                    <a class="thumbnail">
-                                                      <img src="img/tycoach2.jpg" alt="...">
-                                                    </a>
-                                                  </div>
+                                               TYCoach is a project which provides tools to facilitate exchange between students and professionals from any background.<br/>Project manager and front-end developer with PHP Symfony 2 & Twig.
+                                                <div class="comment-docs">
+                                                    <div class="row">
+                                                        <div class="col-xs-6 col-md-3">
+                                                            <a class="thumbnail">
+                                                            <img src="http://eip.epitech.eu/2016/tycoach/img/tycoach_badge.png" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-6 col-md-3">
+                                                            <a class="thumbnail">
+                                                            <img src="img/tycoach.png" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-6 col-md-3">
+                                                            <a class="thumbnail">
+                                                            <img src="img/tycoach2.jpg" alt="...">
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -373,12 +378,91 @@
             </div>
             
         </section>
+        <section id="projects">
+            <div class="section-title">
+                <h2>Projects</h2>
+                <p>Built with love by Gilles.</p>
+            </div>
+            <div class="container-fluid">
+                <div class="projects">
+                    <div class="project">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="project-header"  data-parallax="scroll" data-image-src="img/background.jpg">
+                                        <p>Personal project</p>
+                                        <h3>My Website</h3>
+                                        <button class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                                    </div>
+                                    <span class="label label-default">CSS / LESS</span>
+                                    <span class="label label-default">HTML5</span>
+                                    <span class="label label-default">Bootstrap</span>
+                                    <span class="label label-default">jQuery</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="project">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="project-header"  data-parallax="scroll" data-image-src="img/retrowave.png">
+                                        <p>Personal project</p>
+                                        <h3>Retrowave.fr</h3>
+                                        <button class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                                    </div>
+                                    <span class="label label-default">CSS3</span>
+                                    <span class="label label-default">HTML5</span>
+                                    <span class="label label-default">Bootstrap</span>
+                                    <span class="label label-default">Wordpress</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="project">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="project-header"  data-parallax="scroll" data-image-src="img/yepform.png">
+                                        <p>Professional project</p>
+                                        <h3>Yepform</h3>
+                                        <button class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                                    </div>
+                                    <span class="label label-default">CSS3</span>
+                                    <span class="label label-default">HTML5</span>
+                                    <span class="label label-default">PHP</span>
+                                    <span class="label label-default">Zend-framework 2</span>
+                                    <span class="label label-default">jQuery</span>
+                                    <span class="label label-default">Git (github)</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="project">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="project-header"  data-parallax="scroll" data-image-src="img/cityzenmap.png">
+                                        <p>Professional project</p>
+                                        <h3>Cityzen map</h3>
+                                        <button class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                                    </div>
+                                    <span class="label label-default">CSS3</span>
+                                    <span class="label label-default">HTML5</span>
+                                    <span class="label label-default">Bootstrap</span>
+                                    <span class="label label-default">Django</span>
+                                    <span class="label label-default">Python</span>
+                                    <span class="label label-default">AngularJS</span>
+                                    <span class="label label-default">OpenStreetMap</span>
+                                    <span class="label label-default">Git (gitlab)</span>
+                                    <span class="label label-default">Agile</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
         
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

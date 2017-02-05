@@ -35,6 +35,13 @@ body {
     border-radius: 0;
     width: 200px;
 }
+.btn-black-outline {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+    width: 200px;
+}
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
@@ -61,7 +68,7 @@ body {
     font-size: 21px;
     font-weight: 200;
 }
-#features, #experience, #formations {
+#features, #experience, #formations, #projects {
     text-align: center;
     margin: 0px;
 }
@@ -152,6 +159,45 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 5px;
+}
+.feed-item .comment .comment-docs {
+    margin-top: 10px;
+}
+.project {
+    text-align: left;
+    margin: 20px 0;
+}
+.project .project-header {
+    min-height: 100px;
+    position: relative;
+}
+.project .project-header h3 {
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:inline-block;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+.project .project-header p {
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.project .project-header button {
+    width: auto!important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.project .project-header button {
+    width: 100px;
+    margin-top: 20px;
 }
 
 #rot
