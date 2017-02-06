@@ -71,7 +71,7 @@ body {
     font-size: 21px;
     font-weight: 200;
 }
-#features, #experience, #formations, #projects {
+#features, #experience, #formations, #projects, #contact {
     text-align: center;
     margin: 0px;
 }
@@ -83,10 +83,13 @@ body {
 }
 .feature-pic {
     width: 200px;
-    height: 200px;
+    height: 130px;
+}
+.check {
+    color: limegreen;
 }
 #commit-list {
-    margin: 0 20px;
+    margin: 0 10%;
 }
 .commit-group {
     text-align: left;
