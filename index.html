@@ -38,8 +38,8 @@
         <div class="jumbotron parallax-window main-header" data-parallax="scroll" data-image-src="img/background.jpg">
             <img src="img/me.jpg" alt="profil picture" class="picture-of-me rotate1" id="rot">
             <div id="header-content">
-                <h1>Gilles TUAL</h1>
-                <p>The only front-end developer you'll need !</p>
+                <h1>Gilles TUAL <br><small>Technical Writer</small></h1>
+                <p>Formed by Epitech during 5 years, I have strong technical background in development. After a few internships and jobs, I started to see my career more clearly and want to shift in a project management job / technical writing in order to use all my assets to their maximum.</p>
             </div>
             <div class="call-to-action">
                 <a class="btn btn-primary btn-lg btn-white-outline" onclick="$('#contact').animatescroll({scrollSpeed:1500,easing:'easeInOutQuint', padding:50});" role="button">Contact me</a>
@@ -52,6 +52,7 @@
                     <h2>Features</h2>
                     <p>Packed with wonderful features, there's no way you'll not find what you want here.</p>
                 </div>
+              
                 <div class="row">
                     <div class="col-md-4">
                     <div class="feature-item">
@@ -260,7 +261,7 @@
         <section id="formations">
             <div class="section-title">
                 <h2>Formations</h2>
-                <p>Took a few years to build this very stable and efficient developer</p>
+                <p>Took a few years to build this very stable and efficient human</p>
             </div>
             <div class="container-fluid">
                 <div class="feed-list">
@@ -381,13 +382,30 @@
             </div>
             <div class="container-fluid">
                 <div class="projects">
+                  <div class="project">
+                          <div class="row">
+                              <div class="col-md-8 col-md-offset-2">
+                                  <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/airport.jpg">
+                                      <p>Professional project</p>
+                                      <h3>Airport, by Rézocean</h3>
+                                      <a target="_blank" href="https://airport.rezocean.fr" class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                                  </div>
+                                  <span class="label label-default">CSS / LESS</span>
+                                  <span class="label label-default">HTML5</span>
+                                  <span class="label label-default">Bootstrap</span>
+                                  <span class="label label-default">AngularJS</span>
+                                  <span class="label label-default">NodeJS</span>
+                                  <span class="label label-default">MongoDB</span>
+                              </div>
+                          </div>
+                  </div>
                     <div class="project">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
                                     <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/background.jpg">
                                         <p>Personal project</p>
-                                        <h3>My Website</h3>
-                                        <button class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                                        <h3>This resume website</h3>
+                                        <a href="#" class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
                                     </div>
                                     <span class="label label-default">CSS / LESS</span>
                                     <span class="label label-default">HTML5</span>
@@ -402,7 +420,7 @@
                                     <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/retrowave.png">
                                         <p>Personal project</p>
                                         <h3>Retrowave.fr</h3>
-                                        <a href="http://retrowave.fr/"><button class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button></a>
+                                        <button class="btn btn-primary btn-lg btn-black-outline" disabled>Discontinued <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
                                     </div>
                                     <span class="label label-default">CSS3</span>
                                     <span class="label label-default">HTML5</span>
@@ -414,10 +432,23 @@
                     <div class="project">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
+                                    <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/deviantart.jpg">
+                                        <p>Personal projects</p>
+                                        <h3>Design on DeviantArt</h3>
+                                        <a href="https://www.deviantart.com/coinoproux" class="btn btn-primary btn-lg btn-white-outline">See projects <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                                    </div>
+                                    <span class="label label-default">Illustrator</span>
+                                    <span class="label label-default">Photoshop</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="project">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
                                     <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/yepform.png">
                                         <p>Professional project</p>
                                         <h3>Yepform</h3>
-                                        <a href="https://www.yepform.com/index.php"><button class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button></a>
+                                        <a href="https://www.yepform.com/index.php" class="btn btn-primary btn-lg btn-white-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
                                     </div>
                                     <span class="label label-default">CSS3</span>
                                     <span class="label label-default">HTML5</span>
@@ -434,7 +465,7 @@
                                     <div class="project-header"  data-parallax="scroll" data-speed="0.7" data-image-src="img/cityzenmap.png">
                                         <p>Professional project</p>
                                         <h3>Cityzen map</h3>
-                                        <a target="_blank" href="http://www.cityzenmap.com/"><button class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button></a>
+                                        <a target="_blank" href="http://www.cityzenmap.com/" class="btn btn-primary btn-lg btn-black-outline">See project <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
                                     </div>
                                     <span class="label label-default">CSS3</span>
                                     <span class="label label-default">HTML5</span>
@@ -456,6 +487,9 @@
              <div class="section-title">
                 <h2>Contact</h2>
                 <p>Contact me so we can work together !</p>
+
+                <a href="https://www.linkedin.com/in/tualgilles/">linkedin</a><br>
+                <a href="mailto:tual.gilles@gmail.com">Write me an email</a>
             </div>
         </section>
 
