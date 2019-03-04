@@ -23,6 +23,7 @@ body {
     background-color: transparent;
     text-align: center;
     padding: 150px 20px 0 20px;
+    overflow-y: auto;
 }
 .jumbotron p {
   width: 60%;
@@ -208,6 +209,11 @@ body {
 .project .project-header button, .project .project-header a {
     width: 100px;
     margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 15px 0;
 }
 
 #rot
